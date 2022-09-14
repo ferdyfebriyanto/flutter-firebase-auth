@@ -54,7 +54,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyAjEbJKXTd6VjJMlYLjvhjrt6RUJHdwgqw',
-    appId: '1:739489456051:android:b31e01c4ca8a07c650f5c6',
+    appId: '1:739489456051:android:ffb5fa8a5e9fc0c450f5c6',
     messagingSenderId: '739489456051',
     projectId: 'flutterfire-ui-codelab-af676',
     storageBucket: 'flutterfire-ui-codelab-af676.appspot.com',
@@ -66,8 +66,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '739489456051',
     projectId: 'flutterfire-ui-codelab-af676',
     storageBucket: 'flutterfire-ui-codelab-af676.appspot.com',
-    iosClientId:
-        '739489456051-e4mn4g7pf1cs7gehrvf4gt3f0pr015om.apps.googleusercontent.com',
+    iosClientId: '739489456051-e4mn4g7pf1cs7gehrvf4gt3f0pr015om.apps.googleusercontent.com',
     iosBundleId: 'com.example.complete',
   );
 
@@ -77,8 +76,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '739489456051',
     projectId: 'flutterfire-ui-codelab-af676',
     storageBucket: 'flutterfire-ui-codelab-af676.appspot.com',
-    iosClientId:
-        '739489456051-e4mn4g7pf1cs7gehrvf4gt3f0pr015om.apps.googleusercontent.com',
+    iosClientId: '739489456051-e4mn4g7pf1cs7gehrvf4gt3f0pr015om.apps.googleusercontent.com',
     iosBundleId: 'com.example.complete',
   );
 }
