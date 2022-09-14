@@ -12,8 +12,10 @@
 
 ![Button Profile](./images/04.png)
 ![Halaman Profile](./images/05.png)
+![Halaman Profile Menambahkan Children baru](./images/06.png)
 
 
 # Masuk Google Auth Multiplatform
 
-![Tampilan ketika masuk dengan google](./images/06.png)
+![Tampilan ketika masuk dengan google](./images/07.png)
+![Tampilan ketika klik tombol google](./images/08.png)
