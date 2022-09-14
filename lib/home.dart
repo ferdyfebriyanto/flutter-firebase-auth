@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterfire_ui/auth.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -17,6 +18,7 @@ class HomeScreen extends StatelessWidget {
               'Welcome!',
               style: Theme.of(context).textTheme.displaySmall,
             ),
+            const SignOutButton(),
           ],
         ),
       ),
