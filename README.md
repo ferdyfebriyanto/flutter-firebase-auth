@@ -2,7 +2,7 @@
 
 # Praktikum
 
-## Customize the sign-in Screen]
+## Customize the sign-in Screen
 
 ![Sign-In Screen](./images/01.png)
 ![Tampilan Sudah masuk halaman home](./images/02.png)
