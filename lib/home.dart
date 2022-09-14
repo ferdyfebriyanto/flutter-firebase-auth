@@ -24,6 +24,16 @@ class HomeScreen extends StatelessWidget {
                         Navigator.of(context).pop();
                       })
                     ],
+                    children: [
+                      const Divider(),
+                      Padding(
+                        padding: const EdgeInsets.all(2),
+                        child: AspectRatio(
+                          aspectRatio: 1,
+                          child: Image.asset('assets/flutterfire_300x.png'),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               );
