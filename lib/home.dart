@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutterfire_ui/auth.dart';
-import 'package:flutter/material.dart';
-import 'package:flutterfire_ui/auth.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -18,6 +16,9 @@ class HomeScreen extends StatelessWidget {
                 context,
                 MaterialPageRoute<ProfileScreen>(
                   builder: (context) => ProfileScreen(
+                    appBar: AppBar(
+                      title: const Text('User Profile'),
+                    ),
                     actions: [
                       SignedOutAction((context) {
                         Navigator.of(context).pop();
