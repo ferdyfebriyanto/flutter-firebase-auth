@@ -16,13 +16,14 @@ class AuthGate extends StatelessWidget {
           return SignInScreen(
             providerConfigs: const [
               EmailProviderConfiguration(),
+              GoogleProviderConfiguration(),
             ],
             headerBuilder: (context, constraints, shrinkOffset) {
               return Padding(
                 padding: const EdgeInsets.all(20),
                 child: AspectRatio(
                   aspectRatio: 1,
-                  child: Image.asset('assets/flutterfire_300x.png'),
+                  child: Image.asset('flutterfire_300x.png'),
                 ),
               );
             },
@@ -48,12 +49,13 @@ class AuthGate extends StatelessWidget {
                 padding: const EdgeInsets.all(20),
                 child: AspectRatio(
                   aspectRatio: 1,
-                  child: Image.asset('assets/flutterfire_300x.png'),
+                  child: Image.asset('flutterfire_300x.png'),
                 ),
               );
             },
           );
         }
+
         return const HomeScreen();
       },
     );
