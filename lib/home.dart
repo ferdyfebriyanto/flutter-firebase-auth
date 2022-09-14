@@ -8,6 +8,19 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.person),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute<ProfileScreen>(
+                  builder: (context) => const ProfileScreen(),
+                ),
+              );
+            },
+          )
+        ],
         automaticallyImplyLeading: false,
       ),
       body: Center(
