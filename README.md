@@ -12,3 +12,8 @@
 
 ![Button Profile](./images/04.png)
 ![Halaman Profile](./images/05.png)
+
+
+# Masuk Google Auth Multiplatform
+
+![Tampilan ketika masuk dengan google](./images/06.png)
